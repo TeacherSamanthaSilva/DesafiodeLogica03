@@ -15,3 +15,15 @@ while(contador <=10){
     console.log(contador);
     contador++;
 }
+
+let numero
+let quantidadeNumerosImpares
+
+numero = 0;
+quantidadeNumerosImpares = 0;
+while(numero <= 100){
+if(numero %2 == 1){
+    quantidadeNumerosImpares = +1;
+}
+numero++;
+}
