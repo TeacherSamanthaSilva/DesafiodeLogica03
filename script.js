@@ -26,4 +26,18 @@ if(numero %2 == 1){
     quantidadeNumerosImpares = +1;
 }
 numero++;
+console.log(quantidadeNumerosImpares);
+}
+
+let num
+let quantidadeNumeroPares
+
+num = 0;
+quantidadeNumerosPares = 0;
+while(num <= 100){
+if(num %2 == 0){
+    quantidadeNumerosPares = +1;
+}
+numero++;
+console.log(quantidadeNumerosPares);
 }
