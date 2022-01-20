@@ -38,6 +38,6 @@ while(num <= 100){
 if(num %2 == 0){
     quantidadeNumerosPares = +1;
 }
-numero++;
+num++;
 console.log(quantidadeNumerosPares);
 }
